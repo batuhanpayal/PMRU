@@ -52,7 +52,9 @@ namespace PMRU.Persistence.Repositories
             return Table.Where(predicate);
         }
 
-        public async Task<T?> GetByIdAsync(int id)
+        public async Task<T?> GetByIdAsync(int id,
+        Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null,
+        bool enableTracking = false)
         {
             return await Table
                 .AsNoTracking()

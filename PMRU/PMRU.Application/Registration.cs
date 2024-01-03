@@ -15,7 +15,7 @@ namespace PMRU.Application
         {
             var assembly = Assembly.GetExecutingAssembly();
 
-            services.AddMediatR(assembly);
+            services.AddMediatR(cfg=> cfg.RegisterServicesFromAssemblies(assembly));
         }
     }
 

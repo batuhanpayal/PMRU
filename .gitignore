@@ -379,3 +379,10 @@ FodyWeavers.xsd
 /PMRU/PMRU.Api/appsettings.Development.json
 /PMRU/PMRU.Api/appsettings.Developer.json
 /PMRU/PMRU.Api/.editorconfig
+/PMRU/PMRU.Persistence/Migrations/20240108072803_update1.cs
+/PMRU/PMRU.Persistence/Migrations/20240108072803_update1.Designer.cs
+/PMRU/PMRU.Persistence/Migrations/AppDbContextModelSnapshot.cs
+/.gitignore
+/.gitignore
+/.gitignore
+/PMRU/PMRU.Persistence/Migrations/AppDbContextModelSnapshot.cs

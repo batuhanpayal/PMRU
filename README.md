@@ -109,7 +109,7 @@ The development took place in the Visual Studio environment and was managed thro
 
 <!-- SCREENS EXAMPLES -->
 ##
-### 📱 Project Imagess
+### 📱 Project Images
 
 You can see the project screenshots below.
 <br/>
